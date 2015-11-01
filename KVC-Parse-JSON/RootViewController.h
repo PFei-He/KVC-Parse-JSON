@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  KVC-Parse-JSON
 //
 //  Created by PFei_He on 15/10/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

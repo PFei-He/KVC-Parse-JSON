@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		455D407C1BE49E0B0075C293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D407B1BE49E0B0075C293 /* main.m */; };
 		455D407F1BE49E0B0075C293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D407E1BE49E0B0075C293 /* AppDelegate.m */; };
-		455D40821BE49E0B0075C293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D40811BE49E0B0075C293 /* ViewController.m */; };
 		455D40851BE49E0B0075C293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455D40831BE49E0B0075C293 /* Main.storyboard */; };
 		455D40871BE49E0B0075C293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455D40861BE49E0B0075C293 /* Images.xcassets */; };
 		455D408A1BE49E0B0075C293 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 455D40881BE49E0B0075C293 /* LaunchScreen.xib */; };
 		455D40961BE49E0B0075C293 /* KVC_Parse_JSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D40951BE49E0B0075C293 /* KVC_Parse_JSONTests.m */; };
+		455D40A11BE49E7A0075C293 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D40A01BE49E7A0075C293 /* RootViewController.m */; };
+		455D40A41BE49EA30075C293 /* NSObject+PFJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D40A31BE49EA30075C293 /* NSObject+PFJSON.m */; };
+		455D40A71BE49ECA0075C293 /* RootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D40A61BE49ECA0075C293 /* RootModel.m */; };
+		455D40A91BE4A33D0075C293 /* person.json in Resources */ = {isa = PBXBuildFile; fileRef = 455D40A81BE4A33D0075C293 /* person.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		455D407B1BE49E0B0075C293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		455D407D1BE49E0B0075C293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		455D407E1BE49E0B0075C293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		455D40801BE49E0B0075C293 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		455D40811BE49E0B0075C293 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		455D40841BE49E0B0075C293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		455D40861BE49E0B0075C293 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		455D40891BE49E0B0075C293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		455D408F1BE49E0B0075C293 /* KVC-Parse-JSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVC-Parse-JSONTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		455D40941BE49E0B0075C293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		455D40951BE49E0B0075C293 /* KVC_Parse_JSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC_Parse_JSONTests.m; sourceTree = "<group>"; };
+		455D409F1BE49E7A0075C293 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		455D40A01BE49E7A0075C293 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		455D40A21BE49EA30075C293 /* NSObject+PFJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PFJSON.h"; sourceTree = "<group>"; };
+		455D40A31BE49EA30075C293 /* NSObject+PFJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PFJSON.m"; sourceTree = "<group>"; };
+		455D40A51BE49ECA0075C293 /* RootModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootModel.h; sourceTree = "<group>"; };
+		455D40A61BE49ECA0075C293 /* RootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootModel.m; sourceTree = "<group>"; };
+		455D40A81BE4A33D0075C293 /* person.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = person.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +91,13 @@
 			children = (
 				455D407D1BE49E0B0075C293 /* AppDelegate.h */,
 				455D407E1BE49E0B0075C293 /* AppDelegate.m */,
-				455D40801BE49E0B0075C293 /* ViewController.h */,
-				455D40811BE49E0B0075C293 /* ViewController.m */,
+				455D409F1BE49E7A0075C293 /* RootViewController.h */,
+				455D40A01BE49E7A0075C293 /* RootViewController.m */,
+				455D40A51BE49ECA0075C293 /* RootModel.h */,
+				455D40A61BE49ECA0075C293 /* RootModel.m */,
+				455D40A21BE49EA30075C293 /* NSObject+PFJSON.h */,
+				455D40A31BE49EA30075C293 /* NSObject+PFJSON.m */,
+				455D40A81BE4A33D0075C293 /* person.json */,
 				455D40831BE49E0B0075C293 /* Main.storyboard */,
 				455D40861BE49E0B0075C293 /* Images.xcassets */,
 				455D40881BE49E0B0075C293 /* LaunchScreen.xib */,
@@ -201,6 +214,7 @@
 			files = (
 				455D40851BE49E0B0075C293 /* Main.storyboard in Resources */,
 				455D408A1BE49E0B0075C293 /* LaunchScreen.xib in Resources */,
+				455D40A91BE4A33D0075C293 /* person.json in Resources */,
 				455D40871BE49E0B0075C293 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455D40821BE49E0B0075C293 /* ViewController.m in Sources */,
 				455D407F1BE49E0B0075C293 /* AppDelegate.m in Sources */,
 				455D407C1BE49E0B0075C293 /* main.m in Sources */,
+				455D40A71BE49ECA0075C293 /* RootModel.m in Sources */,
+				455D40A11BE49E7A0075C293 /* RootViewController.m in Sources */,
+				455D40A41BE49EA30075C293 /* NSObject+PFJSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
