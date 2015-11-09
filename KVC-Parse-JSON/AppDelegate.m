@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Interface.h"
+#import "PFFile.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //从文件中读取JSON
+    [PersonModel sharedInstance].JSON = [PFFile fileName:@"person"];
+    
     return YES;
 }
 

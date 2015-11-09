@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		455D407C1BE49E0B0075C293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D407B1BE49E0B0075C293 /* main.m */; };
 		455D407F1BE49E0B0075C293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D407E1BE49E0B0075C293 /* AppDelegate.m */; };
-		455D40851BE49E0B0075C293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455D40831BE49E0B0075C293 /* Main.storyboard */; };
 		455D40871BE49E0B0075C293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455D40861BE49E0B0075C293 /* Images.xcassets */; };
-		455D408A1BE49E0B0075C293 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 455D40881BE49E0B0075C293 /* LaunchScreen.xib */; };
 		455D40961BE49E0B0075C293 /* KVC_Parse_JSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D40951BE49E0B0075C293 /* KVC_Parse_JSONTests.m */; };
-		455D40A11BE49E7A0075C293 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D40A01BE49E7A0075C293 /* RootViewController.m */; };
-		455D40A41BE49EA30075C293 /* NSObject+PFJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D40A31BE49EA30075C293 /* NSObject+PFJSON.m */; };
-		455D40A71BE49ECA0075C293 /* RootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 455D40A61BE49ECA0075C293 /* RootModel.m */; };
-		455D40A91BE4A33D0075C293 /* person.json in Resources */ = {isa = PBXBuildFile; fileRef = 455D40A81BE4A33D0075C293 /* person.json */; };
+		45A684841BF04A8A005F4548 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A684731BF04A8A005F4548 /* RootViewController.m */; };
+		45A684861BF04A8A005F4548 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A684771BF04A8A005F4548 /* LaunchScreen.xib */; };
+		45A684871BF04A8A005F4548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A684791BF04A8A005F4548 /* Main.storyboard */; };
+		45A684881BF04A8A005F4548 /* PFFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A6847E1BF04A8A005F4548 /* PFFile.m */; };
+		45A684951BF04D1C005F4548 /* PFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A684941BF04D1C005F4548 /* PFModel.m */; };
+		45A684C71BF06AF0005F4548 /* person.json in Resources */ = {isa = PBXBuildFile; fileRef = 45A684C61BF06AF0005F4548 /* person.json */; };
+		45A684CA1BF06B15005F4548 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A684C91BF06B15005F4548 /* PersonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,19 +36,22 @@
 		455D407B1BE49E0B0075C293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		455D407D1BE49E0B0075C293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		455D407E1BE49E0B0075C293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		455D40841BE49E0B0075C293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		455D40861BE49E0B0075C293 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		455D40891BE49E0B0075C293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		455D408F1BE49E0B0075C293 /* KVC-Parse-JSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVC-Parse-JSONTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		455D40941BE49E0B0075C293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		455D40951BE49E0B0075C293 /* KVC_Parse_JSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC_Parse_JSONTests.m; sourceTree = "<group>"; };
-		455D409F1BE49E7A0075C293 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		455D40A01BE49E7A0075C293 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		455D40A21BE49EA30075C293 /* NSObject+PFJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PFJSON.h"; sourceTree = "<group>"; };
-		455D40A31BE49EA30075C293 /* NSObject+PFJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PFJSON.m"; sourceTree = "<group>"; };
-		455D40A51BE49ECA0075C293 /* RootModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootModel.h; sourceTree = "<group>"; };
-		455D40A61BE49ECA0075C293 /* RootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootModel.m; sourceTree = "<group>"; };
-		455D40A81BE4A33D0075C293 /* person.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = person.json; sourceTree = "<group>"; };
+		45A684721BF04A8A005F4548 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		45A684731BF04A8A005F4548 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		45A684781BF04A8A005F4548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		45A6847A1BF04A8A005F4548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45A6847D1BF04A8A005F4548 /* PFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFile.h; sourceTree = "<group>"; };
+		45A6847E1BF04A8A005F4548 /* PFFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFile.m; sourceTree = "<group>"; };
+		45A684931BF04D1C005F4548 /* PFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFModel.h; sourceTree = "<group>"; };
+		45A684941BF04D1C005F4548 /* PFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFModel.m; sourceTree = "<group>"; };
+		45A684C61BF06AF0005F4548 /* person.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = person.json; sourceTree = "<group>"; };
+		45A684C81BF06B15005F4548 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		45A684C91BF06B15005F4548 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		45A684CB1BF06B72005F4548 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,16 +95,9 @@
 			children = (
 				455D407D1BE49E0B0075C293 /* AppDelegate.h */,
 				455D407E1BE49E0B0075C293 /* AppDelegate.m */,
-				455D409F1BE49E7A0075C293 /* RootViewController.h */,
-				455D40A01BE49E7A0075C293 /* RootViewController.m */,
-				455D40A51BE49ECA0075C293 /* RootModel.h */,
-				455D40A61BE49ECA0075C293 /* RootModel.m */,
-				455D40A21BE49EA30075C293 /* NSObject+PFJSON.h */,
-				455D40A31BE49EA30075C293 /* NSObject+PFJSON.m */,
-				455D40A81BE4A33D0075C293 /* person.json */,
-				455D40831BE49E0B0075C293 /* Main.storyboard */,
+				45A684701BF04A8A005F4548 /* App */,
+				45A6847B1BF04A8A005F4548 /* Base */,
 				455D40861BE49E0B0075C293 /* Images.xcassets */,
-				455D40881BE49E0B0075C293 /* LaunchScreen.xib */,
 				455D40791BE49E0B0075C293 /* Supporting Files */,
 			);
 			path = "KVC-Parse-JSON";
@@ -130,6 +127,72 @@
 				455D40941BE49E0B0075C293 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A684701BF04A8A005F4548 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				45A684711BF04A8A005F4548 /* Controller */,
+				45A684741BF04A8A005F4548 /* File */,
+				45A6848B1BF04AA9005F4548 /* Model */,
+				45A684761BF04A8A005F4548 /* View */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		45A684711BF04A8A005F4548 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45A684721BF04A8A005F4548 /* RootViewController.h */,
+				45A684731BF04A8A005F4548 /* RootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		45A684741BF04A8A005F4548 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				45A684C61BF06AF0005F4548 /* person.json */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		45A684761BF04A8A005F4548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45A684771BF04A8A005F4548 /* LaunchScreen.xib */,
+				45A684791BF04A8A005F4548 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45A6847B1BF04A8A005F4548 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				45A6847C1BF04A8A005F4548 /* Model */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		45A6847C1BF04A8A005F4548 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45A6847D1BF04A8A005F4548 /* PFFile.h */,
+				45A6847E1BF04A8A005F4548 /* PFFile.m */,
+				45A684931BF04D1C005F4548 /* PFModel.h */,
+				45A684941BF04D1C005F4548 /* PFModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45A6848B1BF04AA9005F4548 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45A684CB1BF06B72005F4548 /* Interface.h */,
+				45A684C81BF06B15005F4548 /* PersonModel.h */,
+				45A684C91BF06B15005F4548 /* PersonModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,10 +275,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455D40851BE49E0B0075C293 /* Main.storyboard in Resources */,
-				455D408A1BE49E0B0075C293 /* LaunchScreen.xib in Resources */,
-				455D40A91BE4A33D0075C293 /* person.json in Resources */,
+				45A684C71BF06AF0005F4548 /* person.json in Resources */,
+				45A684861BF04A8A005F4548 /* LaunchScreen.xib in Resources */,
 				455D40871BE49E0B0075C293 /* Images.xcassets in Resources */,
+				45A684871BF04A8A005F4548 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,10 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				455D407F1BE49E0B0075C293 /* AppDelegate.m in Sources */,
+				45A684951BF04D1C005F4548 /* PFModel.m in Sources */,
+				45A684881BF04A8A005F4548 /* PFFile.m in Sources */,
+				45A684CA1BF06B15005F4548 /* PersonModel.m in Sources */,
 				455D407C1BE49E0B0075C293 /* main.m in Sources */,
-				455D40A71BE49ECA0075C293 /* RootModel.m in Sources */,
-				455D40A11BE49E7A0075C293 /* RootViewController.m in Sources */,
-				455D40A41BE49EA30075C293 /* NSObject+PFJSON.m in Sources */,
+				45A684841BF04A8A005F4548 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,20 +324,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		455D40831BE49E0B0075C293 /* Main.storyboard */ = {
+		45A684771BF04A8A005F4548 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				455D40841BE49E0B0075C293 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		455D40881BE49E0B0075C293 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				455D40891BE49E0B0075C293 /* Base */,
+				45A684781BF04A8A005F4548 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		45A684791BF04A8A005F4548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A6847A1BF04A8A005F4548 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,6 +498,7 @@
 				455D409B1BE49E0B0075C293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		455D409C1BE49E0B0075C293 /* Build configuration list for PBXNativeTarget "KVC-Parse-JSONTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +507,7 @@
 				455D409E1BE49E0B0075C293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
